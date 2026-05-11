@@ -22,6 +22,12 @@ When the module is enabled, the plate shrinks down with the clock
 (narrower in non-verbose mode, narrower again on small screens). Disable
 to fall back to the roomy fixed plate.
 
+## Screenshots
+
+| Before (wide plate) | After (tight fit) |
+|:---:|:---:|
+| ![Before](before.png) | ![After](1234567.png) |
+
 ## Install
 
 Easiest way — paste the URL into Settings → Modules → install field:

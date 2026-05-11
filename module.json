@@ -2,7 +2,7 @@
   "id": "clock-plate-fit",
   "name": "Bar: clock plate hugs the clock",
   "description": "Shrinks the bar's clock plate to fit the clock width (time, optionally date) instead of the fixed-wider centerSideModule slot. Disable to get a roomier, fixed plate.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "requiresLoader": "1.4",
   "author": "rom4ik",
   "link": "https://github.com/Rom4ik-12/clock-plate-fit",
@@ -11,8 +11,8 @@
   "patches": [
     {
       "file": "modules/ii/bar/BarContent.qml",
-      "find": "            implicitWidth: root.centerSideModuleWidth",
-      "replace": "            implicitWidth: clockWidget.implicitWidth + 20"
+      "find": "        MouseArea {\n            id: rightCenterGroup\n            anchors.verticalCenter: parent.verticalCenter\n            implicitWidth: root.centerSideModuleWidth",
+      "replace": "        MouseArea {\n            id: rightCenterGroup\n            anchors.verticalCenter: parent.verticalCenter\n            implicitWidth: clockWidget.implicitWidth + 20"
     }
   ]
 }
