@@ -11,8 +11,8 @@
   "patches": [
     {
       "file": "modules/ii/bar/BarContent.qml",
-      "find": "                ClockWidget {",
-      "replace": "                ClockWidget {\n                    id: clockWidget"
+      "find": "                ClockWidget {\n                    showDate:",
+      "replace": "                ClockWidget {\n                    id: clockWidget\n                    showDate:"
     },
     {
       "file": "modules/ii/bar/BarContent.qml",
